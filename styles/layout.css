@@ -238,7 +238,27 @@ input:focus, textarea:focus, *:required:focus{border-color:#B97D2D;}
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#B97D2D; border-color:#B97D2D;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
-
+#overlayImage{
+	background-image:url('../images/demo/backgrounds/01.png');
+}
+#overlayBackground{
+	 background-image:url('../images/demo/backgrounds/02.png');
+}
+#moreInfo{
+	color: silver;
+}
+#moto{
+	color: orange;
+}
+#motoInnerBlock{
+color: lightblue;
+}
+.info{
+	text-align: justify;
+}
+#emptyContainer{
+	 display: none;
+}
 /* Rows */
 .row0, .row0 a{color:#474747; background-color:#F7F7F7;}
 .row1{color:#474747; background-color:#FFFFFF;}
@@ -293,7 +313,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#B97D2D;}
 
 #backtotop{color:#FFFFFF; background-color:#B97D2D;}
 
-
+#imageOverlay{
+	background-image:url('../images/demo/backgrounds/01.png');
+}
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
 #comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#B97D2D;}
