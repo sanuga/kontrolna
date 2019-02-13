@@ -93,8 +93,8 @@
 
 .sidebar .sdb_holder{margin-bottom:50px;}
 .sidebar .sdb_holder:last-child{margin-bottom:0;}
-
-
+.sdb_holder_bg{background-color: silver;}
+.sdb_holder_bg ul{color: black !important;}
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
 #footer{padding:80px 0; text-align:center;}
@@ -159,6 +159,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #breadcrumb li a::after{top:3px; right:0; content:"\f101";}
 #breadcrumb li:last-child a{margin:0; padding:0;}
 #breadcrumb li:last-child a::after{display:none;}
+.breadCrbms {background-image:url('../images/demo/backgrounds/01.png');}
 
 /* Sidebar Navigation */
 .sidebar nav{display:block; width:100%;}
@@ -289,7 +290,15 @@ color: lightblue;
 /* Content Area */
 .cta article i{color:#B97D2D; border-color:#D7D7D7;}
 .cta article:hover i{color:#FFFFFF; background-color:#B97D2D; border-color:#B97D2D;}
-
+.paragrphContent {
+	text-align: justify;font-family: Comic Sans MS;
+}
+.paragrphImportant{
+	font-style: italic;font-weight:600;
+}
+#comments ul{
+	background-color: silver;
+}
 
 /* Footer */
 #footer #copyright a{color:inherit; background-color:inherit;}
